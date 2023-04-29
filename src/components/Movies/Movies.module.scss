@@ -1,0 +1,11 @@
+@import '../../index.scss';
+
+.line{
+    border:$borderHeight solid $borderColor;
+
+    height: $borderHeight;
+    
+}
+.watched{
+    color:$secondFontColor ;
+}
