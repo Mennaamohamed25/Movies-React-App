@@ -29,7 +29,7 @@ if (validationResponse.error) {
 }
 else{
   let {data} = await axios.post(
-    "https://sticky-note-fe.vercel.app/signup",user
+    "https://movies-api.routemisr.com/signup",user
   );
   if (data.message==='success') {
     goToLogin()
