@@ -97,7 +97,7 @@ let validatonData =()=>{
     <label htmlFor="email">Email</label>
     <input onChange={getInputValue} type="email" className='form-control my-2' name='email' />
     </div>
-    <div className="input-data py-3">
+    <div className="input-data py-3 ">
     <label htmlFor="password">Password</label>
     <input onChange={getInputValue} type="password" className='form-control my-2' name='password' />
     </div>
